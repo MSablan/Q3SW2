@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style type="text/css">
+  	body{
+  		background: url(Library.jpeg);
+  		background-size: cover;
+		background-attachment: fixed;
+  	}
+  	td{
+  		letter-spacing: 2px;
+  		font-size: 25px;
+  	}
+  
+  </style>
+	<title></title>
+</head>
+<body>
+	<br>
+    <div class="form-group" align="center">
+    <div class="col-sm-10" >
+        <input type="password" class="form-control" id="pwd" placeholder="Enter Desired Book" name="pwd"> <th scope="row" class="bg-success" > <button  type="submit" class="btn btn-success btn-sml" > Search </button> </form> 
+            <label for="strand" class="text-danger">Filter Options </label>
+      </div>
+    </div>
+    <div class="container text-danger bg-info bg-opacity-50">
+	<h1 align="center">Library</h1>
+	<hr>
+<table class="table table-bordered">
+	
+<tbody>
+	<tr>
+		<td width="25%" height="25%" align="center" class="bg-warning text danger" ><img src="SLAST.jpeg"></td>
+		<td>Si Langgam at si Tipaklong</td>
+		<th> Written by: Virgilio S. Almario <br> <br>Date published: 2003 <br> <br> Publisher: Adarna House, Inc</th>
+		<th align="center"><button type="button" class="btn btn-primary active"><a href="https://www.scribd.com/doc/278604066/Ang-Langgam-at-Ang-Tipaklong#">Download or read here!</th>
+	</tr>
+	<tr>
+		<td width="25%" height="25%" align="center" class="bg-warning text danger" ><img src="JT.jpeg"></td>
+		<td>Juan Tamad</td>
+		<th> Written by: Manuel E. Arguilla <br> <br>Date published: 1993 <br> <br> Publisher: A.S. Florentino</th>
+		<th align="center"><button type="button" class="btn btn-primary active"><a href="https://www.scribd.com/document/503959898/ALAMAT-NI-JUAN-TAMAD">Download or read here!</th>
+	</tr>
+
+	<tr>
+		<td width="5%" height="5%" align="center" class="bg-warning text danger" ><img src="AMNMGI.png"></td>
+		<td>ang manok at ang gintong itlog</td>
+		<th> Written by: Unknown <br> <br>Date published: 2001 <br> <br> Publisher: Adarna Lahi</th>
+		<th align="center"><button type="button" class="btn btn-primary active"><a href="https://www.scribd.com/document/351009746/Ang-Manok-at-Ang-Gintong-Itlog">Download or read here!</th>
+	</tr>
+	<tr>
+		<td width="25%" height="25%" align="center" class="bg-warning text danger" ><img src="SPASM.jpeg"></td>
+		<td>si pagong at si matsing</td>
+		<th> Written by: Hubert B. Fucio, Virgilio S. Almario, and Wilfredo E. Pollarco
+ 		<br> <br>Date published: 2012 <br> <br> Publisher: Adarna House</th>
+ 		<th align="center"><button type="button" class="btn btn-primary active"><a href="https://www.scribd.com/doc/57985061/Ang-Kwento-Ni-Pagong-at-Matsing">Download or read here!</th>
+	</tr>
+	</tr>
+	<tr>
+		<td width="25%" height="25%" align="center" class="bg-warning text danger" ><img src="MKATK.jpeg"></td>
+		<td>mahal ko ang tatay ko</td>
+		<th> Written by: Shelley Admont<br> <br>Date published: 2019 <br> <br> Publisher: Kidkiddos Books Ltd.</th>
+		<th align="center"><button type="button" class="btn btn-primary active"><a href="https://bookshop.org/p/books/mahal-ko-ang-tatay-ko-i-love-my-dad-tagalog-english-bilingual-book-shelley-admont/9388998?ean=9781525914270">Download or read here!</th>
+	</tr>
+</tbody>
+</table>
+
+<div class="container text-warning bg-opacity-50">
+	<p align="center">Do you have any suggestions or books you want us to add? Send it here! </p>
+
+ <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Email Address: </label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+  </div>
+  <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Books/Suggestions:</span>
+  </div>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+<br>
+<button type="submit" class="btn btn-primary">submit</button>
+</form>
+</div>
+</body>
+</html>
